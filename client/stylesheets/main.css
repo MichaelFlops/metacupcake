@@ -1,5 +1,21 @@
 #back {
-  opacity: 0.9;
+
+}
+
+.top-bar {
+	opacity: 0.1;
+}
+
+.panel {
+	width: 33%;
+}
+
+.fix {
+  padding: 0;
+}
+
+.fadeIn{
+  opacity: 1;
   top: 0;
   left: 0;
   bottom: 0;
@@ -7,14 +23,16 @@
   position: absolute;
   z-index: -4;   
   width: 100%
+  -webkit-animation: fade-in 2s ease;
+  -moz-animation: fade-in ease-in-out 2s both;
+  -ms-animation: fade-in ease-in-out 2s both;
+  -o-animation: fade-in ease-in-out 2s both;
+  animation: fade-in 2s ease;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
 }
-
-.top-bar {
-	opacity: 0.9;
-}
-
-.panel {
-	width: 33%;
-}
-
-
+ 
+@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
