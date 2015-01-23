@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="73px" viewBox="0 0 75 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0 (7574) - http://www.bohemiancoding.com/sketch -->
+    <title>fi-music 2</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="fi-music" sketch:type="MSLayerGroup" fill="#50E3C2">
+            <path d="M71.105,-0.373 L71.105,-0.373 L19.938,-0.373 C18.174,-0.373 16.743,1.058 16.743,2.822 L16.743,50.891 C15.612,50.642 14.428,50.497 13.2,50.497 C5.744,50.497 -0.3,55.393 -0.3,61.435 C-0.3,67.476 5.744,72.372 13.2,72.372 C20.655,72.372 26.7,67.476 26.7,61.435 L26.7,15.257 L64.344,15.257 L64.344,41.658 C63.213,41.409 62.029,41.264 60.801,41.264 C53.345,41.264 47.301,46.16 47.301,52.202 C47.301,58.244 53.345,63.139 60.801,63.139 C68.256,63.139 74.301,58.243 74.301,52.202 L74.301,2.823 C74.3,1.058 72.87,-0.372 71.105,-0.373 L71.105,-0.373 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
