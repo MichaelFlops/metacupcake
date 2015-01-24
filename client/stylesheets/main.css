@@ -1,3 +1,11 @@
+html {
+  -webkit-animation: fade-in 5s ease;
+  -moz-animation: fade-in ease-in-out 5s both;
+  -ms-animation: fade-in ease-in-out 5s both;
+  -o-animation: fade-in ease-in-out 5s both;
+  animation: fade-in s ease;
+}
+
 .top-bar {
 	opacity: 0.1;
 }
@@ -41,11 +49,11 @@
 @keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 
 img {
-  -webkit-animation: fade-in 3s ease;
+/*  -webkit-animation: fade-in 3s ease;
   -moz-animation: fade-in ease-in-out 3s both;
   -ms-animation: fade-in ease-in-out 3s both;
   -o-animation: fade-in ease-in-out 3s both;
   animation: fade-in 3s ease;
   visibility: visible;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;*/
 }
