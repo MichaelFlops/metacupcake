@@ -1,7 +1,3 @@
-#back {
-
-}
-
 .top-bar {
 	opacity: 0.1;
 }
@@ -10,29 +6,46 @@
 	width: 33%;
 }
 
-.fix {
+/*#fix {
   padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+*/
+#logoFix {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: 100px;
 }
 
-.fadeIn{
+#fadeIn{
+  position: absolute;
   opacity: 1;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
-  z-index: -4;   
-  width: 100%
-  -webkit-animation: fade-in 2s ease;
-  -moz-animation: fade-in ease-in-out 2s both;
-  -ms-animation: fade-in ease-in-out 2s both;
-  -o-animation: fade-in ease-in-out 2s both;
-  animation: fade-in 2s ease;
-  visibility: visible;
-  -webkit-backface-visibility: hidden;
+  z-index: -10;   
+  width: 100%;
+  height: auto;
 }
  
 @-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
 @-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 @-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 @keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+
+img {
+  -webkit-animation: fade-in 3s ease;
+  -moz-animation: fade-in ease-in-out 3s both;
+  -ms-animation: fade-in ease-in-out 3s both;
+  -o-animation: fade-in ease-in-out 3s both;
+  animation: fade-in 3s ease;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}
