@@ -9,7 +9,11 @@
 <template name="topBar">
   <!-- broken img shit -->
   <!-- {{> backImage}} -->
-  <img src="images/back2.jpg" alt="" id="fadeIn">
+  <img src="images/back2.jpg" alt="" id="fadeIn" style="position: relative; top: 0; left: 0;"/>
+  <!-- Hey Mike! Lets make the href slowly slide down to nav also lets make a good logo! -->
+  <a href="#"> 
+    <img src="images/metacupcakelogoHQ.png" alt="" id="fadeIn" style="position: absolute; top: 30px; left: 290px;" width="45%"/>
+  </a>
 
   <div class="icon-bar five-up">
   <a class="item" href="/">
@@ -28,4 +32,8 @@
     <img src="images/fi-save.svg" alt="">
   </a>
 </div>
+</template>
+<template name="logo">
+  
+
 </template>
