@@ -6,24 +6,6 @@ html {
   animation: fade-in s ease;
 }
 
-.top-bar {
-	opacity: 0.1;
-}
-
-.panel {
-	width: 33%;
-}
-
-/*#fix {
-  padding: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-}
-*/
 #logoFix {
   margin-left: auto;
   margin-right: auto;
@@ -47,13 +29,3 @@ html {
 @-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 @-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
 @keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
-
-img {
-/*  -webkit-animation: fade-in 3s ease;
-  -moz-animation: fade-in ease-in-out 3s both;
-  -ms-animation: fade-in ease-in-out 3s both;
-  -o-animation: fade-in ease-in-out 3s both;
-  animation: fade-in 3s ease;
-  visibility: visible;
-  -webkit-backface-visibility: hidden;*/
-}
