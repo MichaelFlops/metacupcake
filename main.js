@@ -32,5 +32,4 @@ if (Meteor.isClient) {
 
     mainContext.add(new famous.core.Modifier({align: [.5, .5], origin: [.5, .5]})).add(renderController);
   });
-
 }
