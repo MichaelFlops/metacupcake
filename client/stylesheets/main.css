@@ -9,6 +9,7 @@ html {
 #logoFix {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 75px;
   display: block;
   top: 100px;
 }
